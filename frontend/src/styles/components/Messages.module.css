@@ -1,0 +1,4 @@
+.container {
+  padding: var(--ticket-padding);
+  flex: 1 1 auto;
+}

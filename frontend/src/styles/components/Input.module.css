@@ -1,0 +1,7 @@
+.container {
+  padding: var(--ticket-padding);
+}
+
+.fileInput {
+  display: none;
+}

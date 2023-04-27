@@ -1,0 +1,28 @@
+.container {
+  padding: var(--ticket-padding);
+}
+
+.container:hover {
+  cursor: pointer;
+  background-color: rgb(238, 238, 238);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: var(--ticket-line-offset);
+}
+
+.tags {
+  margin-top: var(--ticket-line-offset);
+}
+
+.latestMessage {
+  margin-top: var(--ticket-line-offset);
+}
+
+@media (prefers-color-scheme: dark) {
+  .container:hover {
+    background-color: rgb(35, 35, 35);
+  }
+}
